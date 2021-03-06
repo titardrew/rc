@@ -17,12 +17,12 @@ set incsearch
 set hlsearch
 
 " Colorscheme. See :help group-name for details.
-hi Search   ctermfg=Black ctermbg=LightMagenta
-hi Constant ctermfg=LightYellow
-hi Special  ctermfg=LightMagenta
-hi Comment  ctermfg=Green
-hi Todo     cterm=underline ctermfg=White
-hi Error    cterm=underline ctermfg=Red
+hi Search   ctermfg=Black        ctermbg=LightMagenta
+hi Constant ctermfg=LightYellow  ctermbg=NONE
+hi Special  ctermfg=LightMagenta ctermbg=NONE
+hi Comment  ctermfg=Green        ctermbg=NONE
+hi Todo     cterm=underline ctermfg=White ctermbg=NONE
+hi Error    cterm=underline ctermfg=Red   ctermbg=NONE
 
 " Allow tabs in Makefiles.
 autocmd FileType make,automake set noexpandtab shiftwidth=8 softtabstop=8
