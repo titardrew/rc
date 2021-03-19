@@ -129,7 +129,7 @@ exec "hi DiffDelete guifg=".s:guiaccent0." guibg=".s:guishade1
 exec "hi DiffDelete ctermfg=".s:ctermaccent0." ctermbg=".s:ctermshade1
 exec "hi DiffText guifg=".s:guiaccent2." guibg=".s:guishade2
 exec "hi DiffText ctermfg=".s:ctermaccent2." ctermbg=".s:ctermshade2
-exec "hi ErrorMsg guifg=".s:guishade7." guibg=".s:guiaccent0
+exec "hi ErrorMsg guifg=".s:guiaccent7
 exec "hi ErrorMsg ctermfg=".s:ctermshade7." ctermbg=".s:ctermaccent0
 exec "hi VertSplit guifg=".s:guishade0." guibg=".s:guishade3
 exec "hi VertSplit ctermfg=".s:ctermshade0." ctermbg=".s:ctermshade3
