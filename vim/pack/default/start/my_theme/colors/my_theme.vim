@@ -7,7 +7,7 @@ if &background == 'dark'
   let s:guishade5 = "#d3b58d"
   let s:guishade6 = "#d3b58d"
   let s:guishade7 = "#d3b58d"
-  let s:guiaccent0 = "#f92672"
+  let s:guiaccent0 = "#c5cac5"
   let s:guiaccent1 = "#add8e6"
   let s:guiaccent2 = "#0fdfaf"
   let s:guiaccent3 = "#0fdfaf"
@@ -33,6 +33,7 @@ if &background == 'dark'
   let s:ctermaccent7 = 231
 endif
 
+" Currently useless.
 if &background == 'light'
   let s:guishade0 = "#fafafa"
   let s:guishade1 = "#cdced1"
