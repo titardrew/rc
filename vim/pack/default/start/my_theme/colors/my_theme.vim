@@ -5,7 +5,7 @@ if &background == 'dark'
   let s:guishade3 = "#71ce49"
   let s:guishade4 = "#d3b58d"
   let s:guishade5 = "#d3b58d"
-  let s:guishade6 = "#a59c87"
+  let s:guishade6 = "#bebaaa"
   let s:guishade7 = "#d3b58d"
   let s:guiaccent0 = "#c5cac5"
   let s:guiaccent1 = "#add8e6"
