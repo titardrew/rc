@@ -34,6 +34,10 @@ match ForbiddenWhitespace /\s\+$\|\t/
 " Do not highlight spaces at the end of line while typing on that line.
 autocmd InsertEnter * match ForbiddenWhitespace /\t\|\s\+\%#\@<!$/
 
+" Custom syntax options.
+let g:cpp_class_decl_highlight = 1
+let g:cpp_class_scope_highlight = 1
+
 " Mouse, split-dragging enabled.
 set mouse=a
 set ttymouse=xterm2
