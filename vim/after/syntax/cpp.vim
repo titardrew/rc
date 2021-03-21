@@ -280,7 +280,6 @@ syntax keyword cppSTLfunction binder1st
 syntax keyword cppSTLfunction binder2nd
 syntax keyword cppSTLfunction bsearch
 syntax keyword cppSTLfunction calloc
-syntax keyword cppSTLfunction capacity
 syntax keyword cppSTLfunction ceil
 syntax keyword cppSTLfunction clear
 syntax keyword cppSTLfunction clearerr
@@ -715,7 +714,7 @@ syntax keyword cppSTLtype key_type
 syntax keyword cppSTLtype ldiv_t
 syntax keyword cppSTLtype list
 syntax keyword cppSTLtype lldiv_t
-syntax keyword cppSTLtype map
+"syntax keyword cppSTLtype map
 syntax keyword cppSTLtype mapped_type
 syntax keyword cppSTLtype mask_array
 syntax keyword cppSTLtype mem_fun1_t
@@ -740,7 +739,7 @@ syntax keyword cppSTLtype queue
 syntax keyword cppSTLtype reference
 syntax keyword cppSTLtype second_type
 syntax keyword cppSTLtype sequence_buffer
-syntax keyword cppSTLtype set
+" syntax keyword cppSTLtype set
 syntax keyword cppSTLtype sig_atomic_t
 syntax keyword cppSTLtype size_type
 syntax keyword cppSTLtype slice_array
@@ -748,7 +747,7 @@ syntax keyword cppSTLtype stack
 syntax keyword cppSTLtype stream
 syntax keyword cppSTLtype streambuf
 syntax keyword cppSTLtype streamsize
-syntax keyword cppSTLtype string
+" syntax keyword cppSTLtype string
 syntax keyword cppSTLtype stringbuf
 syntax keyword cppSTLtype stringstream
 syntax keyword cppSTLtype strstream
@@ -766,7 +765,7 @@ syntax keyword cppSTLtype unary_negate
 syntax keyword cppSTLtype valarray
 syntax keyword cppSTLtype value_compare
 syntax keyword cppSTLtype value_type
-syntax keyword cppSTLtype vector
+"syntax keyword cppSTLtype vector
 syntax keyword cppSTLtype wfilebuf
 syntax keyword cppSTLtype wfstream
 syntax keyword cppSTLtype wifstream
@@ -895,7 +894,7 @@ if !exists("cpp_no_cpp11")
     syntax keyword cppSTLconstant nullptr
 
     " containers (array, vector, list, *map, *set, ...)
-    syntax keyword cppSTLtype array
+    " syntax keyword cppSTLtype array
     syntax keyword cppSTLfunction cbegin cend
     syntax keyword cppSTLfunction crbegin crend
     syntax keyword cppSTLfunction shrink_to_fit
@@ -1502,23 +1501,23 @@ if !exists("cpp_no_cpp11")
     syntax keyword cppSTLtype false_type
 
     " unordered_map, unordered_set, unordered_multimap, unordered_multiset
-    syntax keyword cppSTLtype unordered_map
-    syntax keyword cppSTLtype unordered_set
-    syntax keyword cppSTLtype unordered_multimap
-    syntax keyword cppSTLtype unordered_multiset
-    syntax keyword cppSTLtype hasher
+    "syntax keyword cppSTLtype unordered_map
+    "syntax keyword cppSTLtype unordered_set
+    "syntax keyword cppSTLtype unordered_multimap
+    "syntax keyword cppSTLtype unordered_multiset
+    "syntax keyword cppSTLtype hasher
     syntax keyword cppSTLtype key_equal
     syntax keyword cppSTLiterator local_iterator
     syntax keyword cppSTLiterator const_local_iterator
     syntax keyword cppSTLfunction bucket_count
     syntax keyword cppSTLfunction max_bucket_count
     syntax keyword cppSTLfunction bucket_size
-    syntax keyword cppSTLfunction bucket
+    "syntax keyword cppSTLfunction bucket
     syntax keyword cppSTLfunction load_factor
     syntax keyword cppSTLfunction max_load_factor
-    syntax keyword cppSTLfunction rehash
+    "syntax keyword cppSTLfunction rehash
     syntax keyword cppSTLfunction reserve
-    syntax keyword cppSTLfunction hash_function
+    "syntax keyword cppSTLfunction hash_function
     syntax keyword cppSTLfunction key_eq
 
     " utility
